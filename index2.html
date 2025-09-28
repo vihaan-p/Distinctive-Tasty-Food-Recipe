@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Delicious Recipes</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ff914d;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    .recipe {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .recipe h2 {
+      color: #e55b13;
+      margin-top: 0;
+    }
+
+    .ingredients, .instructions {
+      margin: 10px 0;
+    }
+
+    button {
+      background-color: #e55b13;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #c44a0e;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f7e5d0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Delicious Recipes</h1>
+    <p>Easy & tasty recipes you can try at home!</p>
+  </header>
+
+  <div class="container">
+
+    <!-- 🍝 Recipe 1: Spaghetti Aglio e Olio -->
+    <div class="recipe">
+      <h2>Spaghetti Aglio e Olio</h2>
+      <div class="ingredients">
+        <strong>Ingredients:</strong>
+        <ul>
+          <li>200g spaghetti</li>
+          <li>4 garlic cloves, thinly sliced</li>
+          <li>1/4 cup olive oil</li>
+          <li>1/4 tsp red pepper flakes</li>
+          <li>Salt and parsley to taste</li>
+        </ul>
+      </div>
+      <div class="instructions">
+        <strong>Instructions:</strong>
+        <ol>
+          <li>Cook spaghetti in salted water until al dente.</li>
+          <li>Meanwhile, heat olive oil in a pan and sauté garlic until golden.</li>
+          <li>Add red pepper flakes and cooked spaghetti to the pan.</li>
+          <li>Toss everything together and top with chopped parsley.</li>
+        </ol>
+      </div>
+      <button onclick="alert('Enjoy your Spaghetti Aglio e Olio!')">Cook This</button>
+    </div>
+
+    <!-- 🍪 Recipe 2: Chocolate Chip Cookies -->
+    <div class="recipe">
+      <h2>Chocolate Chip Cookies</h2>
+      <div class="ingredients">
+        <strong>Ingredients:</strong>
+        <ul>
+          <li>1 cup butter, softened</li>
+          <li>1 cup sugar</li>
+          <li>2 eggs</li>
+          <li>2 1/4 cups flour</li>
+          <li>1 tsp baking soda</li>
+          <li>1 tsp vanilla extract</li>
+          <li>2 cups chocolate chips</li>
+        </ul>
+      </div>
+      <div class="instructions">
+        <strong>Instructions:</strong>
+        <ol>
+          <li>Preheat oven to 350°F (175°C).</li>
+          <li>Cream together butter and sugar, then beat in eggs and vanilla.</li>
+          <li>Mix in flour and baking soda. Stir in chocolate chips.</li>
+          <li>Drop spoonfuls onto a baking sheet and bake for 10-12 minutes.</li>
+        </ol>
+      </div>
+      <button onclick="alert('Fresh cookies coming right up!')">Bake These</button>
+    </div>
+
+    <!-- 🥗 Recipe 3: Simple Greek Salad -->
+    <div class="recipe">
+      <h2>Simple Greek Salad</h2>
+      <div class="ingredients">
+        <strong>Ingredients:</strong>
+        <ul>
+          <li>2 cups cherry tomatoes, halved</li>
+          <li>1 cucumber, chopped</li>
+          <li>1/2 red onion, sliced</li>
+          <li>1/2 cup Kalamata olives</li>
+          <li>1/2 cup feta cheese, crumbled</li>
+          <li>2 tbsp olive oil</li>
+          <li>1 tbsp red wine vinegar</li>
+          <li>Salt, pepper, and oregano to taste</li>
+        </ul>
+      </div>
+      <div class="instructions">
+        <strong>Instructions:</strong>
+        <ol>
+          <li>Combine all vegetables and olives in a bowl.</li>
+          <li>Whisk olive oil, vinegar, and seasonings together.</li>
+          <li>Pour over salad and toss gently.</li>
+          <li>Top with feta cheese and serve cold.</li>
+        </ol>
+      </div>
+      <button onclick="alert('Healthy and fresh!')">Make This</button>
+    </div>
+
+    <!-- 🍳 Recipe 4: Fluffy Pancakes -->
+    <div class="recipe">
+      <h2>Fluffy Pancakes</h2>
+      <div class="ingredients">
+        <strong>Ingredients:</strong>
+        <ul>
+          <li>1 1/2 cups all-purpose flour</li>
+          <li>3 1/2 tsp baking powder</li>
+          <li>1 tsp salt</li>
+          <li>1 tbsp sugar</li>
+          <li>1 1/4 cups milk</li>
+          <li>1 egg</li>
+          <li>3 tbsp butter, melted</li>
+        </ul>
+      </div>
+      <div class="instructions">
+        <strong>Instructions:</strong>
+        <ol>
+          <li>In a bowl, mix dry ingredients.</li>
+          <li>Add milk, egg, and melted butter. Stir until smooth.</li>
+          <li>Heat a skillet and pour 1/4 cup batter for each pancake.</li>
+          <li>Cook until bubbles form, flip, and cook until golden.</li>
+        </ol>
+      </div>
+      <button onclick="alert('Pancake perfection!')">Flip These</button>
+    </div>
+
+    <!-- 🥘 Recipe 5: Chicken Tikka Masala -->
+    <div class="recipe">
+      <h2>Chicken Tikka Masala</h2>
+      <div class="ingredients">
+        <strong>Ingredients:</strong>
+        <ul>
+          <li>500g chicken breast, cubed</li>
+          <li>1 cup yogurt</li>
+          <li>2 tsp garam masala</li>
+          <li>1 tsp turmeric</li>
+          <li>1 onion, chopped</li>
+          <li>2 garlic cloves, minced</li>
+          <li>1 tbsp ginger, grated</li>
+          <li>1 cup tomato puree</li>
+          <li>1/2 cup cream</li>
+          <li>Salt and oil</li>
+        </ul>
+      </div>
+      <div class="instructions">
+        <strong>Instructions:</strong>
+        <ol>
+          <li>Marinate chicken in yogurt, turmeric, and garam masala for 1 hour.</li>
+          <li>Sauté onions, garlic, and ginger in oil.</li>
+          <li>Add tomato puree and simmer. Add marinated chicken.</li>
+          <li>Cook until chicken is done, then stir in cream. Simmer and serve with rice.</li>
+        </ol>
+      </div>
+      <button onclick="alert('Aromatic and delicious!')">Make This</button>
+    </div>
+
+    <!-- 🥑 Recipe 6: Avocado Toast -->
+    <div class="recipe">
+      <h2>Avocado Toast</h2>
+      <div class="ingredients">
+        <strong>Ingredients:</strong>
+        <ul>
+          <li>2 slices of whole grain bread</li>
+          <li>1 ripe avocado</li>
+          <li>1/2 lemon, juiced</li>
+          <li>Salt and pepper</li>
+          <li>Optional: red pepper flakes, poached egg, cherry tomatoes</li>
+        </ul>
+      </div>
+      <div class="instructions">
+        <strong>Instructions:</strong>
+        <ol>
+          <li>Toast the bread to your liking.</li>
+          <li>Mash avocado with lemon juice, salt, and pepper
